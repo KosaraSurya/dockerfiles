@@ -1,6 +1,6 @@
 FROM almalinux
 ENV course="devops"\
-    trianer="surya"
+    trainer="surya"
 ARG duration="120hrs"
 
 RUN echo "Hi, I am learning ${course} under the guidence of ${trainer} having session of ${duration}"
