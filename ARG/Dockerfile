@@ -3,7 +3,7 @@ ENV course="devops"\
     trianer="surya"
 ARG duration="120hrs"
 
-echo "Hi, I am learning ${course} under the guidence of ${trainer} having session of ${duration}"
+RUN echo "Hi, I am learning ${course} under the guidence of ${trainer} having session of ${duration}"
 
 CMD ["sleep" "500"]
 
